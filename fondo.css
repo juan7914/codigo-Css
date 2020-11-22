@@ -1,0 +1,21 @@
+body{
+	/*background:#A9A9F5; esta estructura para traer color a todo el fondo de mi sitio web */ 	
+	/*background: url('img/paisaje.jpg');
+	background: no-repeat;/* no repite la imagen en toda la pagina web */
+	/*background: repeat-x; este la imagen se repite de forma horizontal 
+	background: repeat-y; en esta caso se repite la imagen de forma vertical*/
+	/*background-size: auto: por defecto lo que la imagen traiga  en pixeles asi la adapta,
+	                   ancho y alto: como nosotros le queremos dar ala imagen
+	                   porcentaje: se escribe el porcentaje que queremos darle ala imagen
+	                   cover: lleva ala imagen agrandar su ancho en todo el contenedor padre
+	                   contain lleva ala imagen agrandar su ancho y alto en todo el contenedor padre*/ 
+
+/*background-attachment: scroll; 
+background-attachment: fixed;
+background-position: center center;*/ /*es mejor escribirlo mas abreviado asi*/
+
+background: url('img/paisaje.jpg') no-repeat center center; 
+background-size: cover; 
+background-attachment: fixed;   
+color: red;  
+}

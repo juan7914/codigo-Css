@@ -1,0 +1,45 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background: #f2f2f2;
+	font-family: arial;
+
+}
+
+.cajapadre{
+	background: #2e294a;
+	width: 800px;
+	overflow: hidden;/* para curar el error que no aparece la caja padre */
+}
+.caja{
+	background: #DF013A;
+	width: 200px;
+	height: 200px;
+	font-size: 38px;
+	color: #f2f2f2;
+	margin: 20px;
+
+}
+.uno{
+	float: left;
+}
+
+.dos{
+	float: right;
+}
+
+/*.clear{
+	clear: both;  esta propiedad tambien corrige el error pero no es aconsejable 
+}*/
+
+article{
+	background: #ccc;
+	width: 800px;
+
+}
+article img{
+	float: left;
+}

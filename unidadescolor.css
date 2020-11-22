@@ -1,0 +1,25 @@
+/* diferentes formas para el color de la caja asi:
+
+palabras clave colores muy fuertes y feos son 17 asi
+agua,blck, blue, fuchsia,gray green, lime, maroom, navy, olive, orange, purple , red , silver, 
+teal, yellow, white.
+
+RGB Decimal rgb(215,38,61)
+
+RGB Porcentual rgb(84%,15%,24%)
+
+
+RGB sexagecimal #f9d8s0
+
+RGB transparencia rgba(215,38,61, .5)
+
+*/
+
+
+.caja {
+
+	width: 200px;
+	height: 200px;
+	background: #FE2EC8; 
+}
+

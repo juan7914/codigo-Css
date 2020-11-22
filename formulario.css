@@ -1,0 +1,71 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;/*este tributo hace que al darle ancho a nuestro cuadro width 200px;  no se sale de la orden */
+}
+body{
+	background: #f2f2f2;
+	font-family: arial, sans-serif;
+}
+.formulario{
+	background: #fff;
+	width: 500px;
+	margin: 20px auto;
+	padding: 20px;	
+	border-radius: 5px;
+}
+.formulario input{
+	display: block;
+}
+.formulario input[type="text"]{
+	width: 100%;
+	padding:20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border: 1px solid #226fc1;
+}
+.formulario input[type="email"]{
+	width: 100%;
+	padding:20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border: 1px solid #226fc1;
+}
+.formulario textarea{
+	width: 100%;
+	padding:20px;	
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border: 1px solid #226fc1;
+}
+.formulario textarea{
+	min-height: 120px;
+	max-height: 360px;
+	min-width: 100%;
+	max-width: 100%;
+}
+.formulario input[type="email"]:focus,{
+	 border: 5px solid  #2EFE2E; 
+}
+.formulario input[type="text"]:focus,{
+	 border: 5px solid  #2EFE2E; 
+}
+.formulario textarea:focus{
+    border: 5px solid  #2EFE2E; 
+}
+.formulario input[type="submit"]{
+	width: 200px;
+	margin:20px auto;
+	background: none;
+	border: 1px solid #4fb560;
+	padding: 20px;
+	color:#4fb560;
+	cursor:pointer; 
+	font-size: 16px;
+	border-radius: 5px;
+}
+.formulario input[type="submit"]:hover{
+	background: #4fb560;
+	color: #fff;
+}
+ 

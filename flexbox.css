@@ -1,0 +1,40 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	background: #f2f2f2;
+	font-family: arial;
+}
+.contenedor{
+	width: 80%;
+	max-width: 700px;
+	height: 500px;
+	background: #212d40;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/*flex-flow: row wrap;*/
+
+	justify-content:center; 
+	align-items: flex-end;
+	/*align-content: center;*/
+}
+.caja{
+	width: 100px;
+	height: 100px;
+	background: #f79256;
+	font-size: 40px;
+	color: #f2f2f2;
+	padding:20px; 
+	margin:20px;
+	text-align: center;
+	/*order:;
+	flex-grow: 
+	flex-shrink:;
+	flex-basis:;
+	flex:1 1 auto;
+	align-self:
+	estas propiedades son las que se pueden aplicar a los contenedores hijos*/
+}

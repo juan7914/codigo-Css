@@ -1,0 +1,36 @@
+
+/*elemnetos  inline son:
+a, span, img, b, i, small, cite, code, em, strong, br,
+ scrip, bottom, input, label, select, textarea;
+
+elemnetos de blok son:
+div, article, header, section, footer, aside, table, p, 
+video, lu, lo, h1, h2, h3, h4, h5, h6,*/
+
+
+
+
+
+body{
+	background: #f2f2f2;
+	font-family: arial;
+}
+
+h1, p, div{
+	background: #ccc;
+	width: 500px;
+	padding: 20px
+
+}
+h1, p, div{
+	display:inline-block;
+}
+
+a{
+	background:#ccc;
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 500px;
+	height: 50px; 
+}

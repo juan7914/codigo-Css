@@ -1,0 +1,16 @@
+.caja{
+	background: #40FF00;
+	width: 200px;
+	height: 200px;
+	/*transition: all 1s ease; *//* ease tien propiedades asi ease-in: inicio lento, 
+	                                                      ease-out: final lento;
+	                                                      ease-in-out: inicio lento y final lento;*/
+	/*transition-delay:2s;*/ /*esta propiedad retasa la trasicion*/
+	transition: all .3s ease;/* el .3s aumenta la velocidad de transicion*/
+}
+
+.caja:hover{
+	background: #01DFD7;
+	width: 400px;
+	transform: rotate(180deg); 
+}

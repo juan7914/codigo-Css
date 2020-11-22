@@ -1,0 +1,19 @@
+.caja{
+	background: #3ADF00;
+	width: 200px;
+	height: 200px;
+	/*transform:translate(200px, 200px);*/ /*existe tambien transform:translateX, y transform:translateY* esta propiedad mueve el cuadro segun queramos*/
+	/*transform:scale(2.2);*/ /*esta´propiedad sirve para garandar o disminuir mi cuadro segun la escala que le de*/
+	/*transform: rotate(20deg);*/ /*esta propiedad rota el cuadro pero su valor debe ser en grados*/
+	/*transform:skew(20deg, 0deg);*/ /*esta propiedad sirve para desfigural mi cuadro*/
+	transform: translate(200px, 200px) scale(2.2) rotate(20deg);/* se pueden usar todas pero sin comas*/
+
+}
+
+/* cosa que hacemos con transform
+-trasladar elementos
+-escalar elementos
+-rotar elementos
+-sesgar elementos
+-ESTA PROPIEDAs solo para animaciones diferente a position relative,absoluto, porque estas son para mover en mi pagina web*/
+

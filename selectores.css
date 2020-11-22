@@ -1,0 +1,36 @@
+/* selector universal asi
+*{}
+*/
+
+/*selector de etiqueta ejemplo*/
+
+h1{
+	color: red;
+} /* con las comas puedes agregar mas etiquetas h1,h2,h3, y asi sucesivamentey darle la propiedad y el valor que quieras */
+
+
+
+/* selector desendente ejemplo*/
+p{
+	font-size:10px;/*aqui generalizaria todos los parrafos , pero quiero solo los parrafos que esten dentro del div entoces hcemos asi:*/ 
+}
+
+div p{
+	font-size:30px;/*aqui solo los parrafos que esten dentro del div*/ 
+}
+
+div article p{
+	font-size:50px;/*aqui solo el parrafos que esten dentro del div y article por eso es desendente este selector*/ 
+}
+
+a{
+	color:azul; 
+}
+
+.grande{
+	font-size:30px;/*este atributo indica  la classe que encuentre grande class="grande " */
+}
+
+#azul{
+	color:azul; /*este atributo indica  el id que encuentre rojo id="azul"  pero en CSS no hagas id no se recomienda eso los utiliza javascrip */
+}

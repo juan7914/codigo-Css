@@ -1,0 +1,32 @@
+/* unidades de medida relativas 
+px=pixeles
+em= relativa al elemento fuente del contenedor padre o mas cercano es decir cambia la fuente si cambia el contenedor padre mas cercano
+rem= relativa al tamaño de fuente especificado en el body
+%= porcentaje
+*/
+
+body{
+	font-size: 20px;
+}
+p{
+	font-size: 1em; /* este atributo "em" toma la funte mas cercana en este caso la del body si quisiera agrandarla ejemplo 30px entonces la divido por el valor
+	                  del pixel de mi contenedor mas cercano en este caso por 16 entonces 30px/20= 1.5 este seria el valor "1.5em"*/
+
+
+}
+div{
+	/*width: 10em;/* 200px; para cambia a medida "em" 200/20*/
+	/*height: 10em;
+	background:  #000;*/
+}
+
+.contenedor-padre {
+	font-size: 30px
+}
+
+.hijo {
+	width: 10rem;/*en este caso se coloca el valor "rem" para que tome el valor del contenedor body y no crezca en cuadro negro*/
+	height: 10rem;
+	background:  #000;
+	color: #fff;
+}

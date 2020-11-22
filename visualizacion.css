@@ -1,0 +1,86 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+body{
+	background: #f2f2f2;
+	font-family: arial;
+
+
+}
+
+div, a {
+	background: #ccc;
+	margin: 10px;
+}
+/* dispaly existen estas propiedades  block / inline/ none/ inline-block/ flex*/
+a{
+	/*display: block;*/
+	/*visibility: hidden; esta propiedad es invisible pero respeta los espacios oculta los enlaces (se utiliza mucho en javascrip);
+	 diferente al  (dispaly-none) que elimina los enlaces */
+	 background: #246eb9;
+	 color: #fff;
+	 padding: 20px;
+	 display: inline-block;
+}
+
+.caja{
+	background: #4fb560;
+	color: #000;
+	width: 200px;
+	height: 200px;
+	margin: 20px 0px;
+	padding: 20px 10px;	
+	
+	/*overflow: hidden;/* esta propiedad corrige que las letras no se salgan del cuadro*/
+	overflow: auto;/* esta propiedad sirve para colocar un scroll al aldo y mirar todo el contenido de nuestro cuadro*/
+
+}
+.contenedor{
+	background: #000;
+	width: 800px;
+	margin: 20px 0px;
+	overflow: hidden;
+
+}
+
+.izquierdo{float: left;}
+.derecho{float: right;}
+
+
+
+
+
+.contenedor2 .caja{
+	font-family: arial,
+	width: 150px;
+	height: 150px;
+	position: relative;
+
+}
+
+.azul{
+	font-style:italic;	
+	background: #0080FF;
+	color: #000;
+	z-index:10;
+}
+
+.gris{
+	font-style: inherit;
+	background: #2E2E2E;
+	color:red;
+	left: 50px;
+	bottom: 80px;
+	z-index:8; 
+}
+
+
+
+
+
+
+
+

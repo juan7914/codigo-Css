@@ -1,0 +1,27 @@
+body{
+	font-family: arial; sans-serif; helvetica;
+}
+p{
+	text-align: justify;
+	text-transform: capitalize;
+	letter-spacing: 10px
+	/*line-heigth:30px; este atributo cambia el espaciado entre lineas*/
+	
+}
+h1{
+	font-family: "Times New Roman"; arial;
+	font-size: 20px;
+	font-style:italic;
+	font-weight: normal;/*este atributo es normal o negrilla "bold"*/
+	color:#FE2E64	
+	
+}
+h1{
+	text-align: center;/*justify,righ,left*/ 
+	text-decoration: overline;
+	text-transform: uppercase;
+	/*text-transform: lowercase; este atributo es  para pasar el texto a minuscula*/
+	/*text-transform: capitalize; este atributo permite poner en mayuscula la primera letra de cada palabra*/
+
+
+}

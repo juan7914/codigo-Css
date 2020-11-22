@@ -1,0 +1,9 @@
+/*selector universal es asi *{}
+y la estructura CSS ES ASI 
+selector-----ejem body
+propiedad---------color
+valor-------------blue */
+
+body {
+	color: blue;
+}

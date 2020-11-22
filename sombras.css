@@ -1,0 +1,23 @@
+/* ptimer valor horizontaL
+   SEGUNDO valor vertical
+   Tercer valor en esl valor de la sombra
+   podemos asignar un valor de color para la sombra*/
+
+
+
+.texto{
+	/*text-shadow: 2px 3px 10px #000;*/
+	color: #fff;
+	text-shadow: 2px 0px 10px blue;
+
+}
+
+.caja{
+	box-shadow: 10px 10px 7px rgba(0,0,0,.5);
+	background: #f79256;
+	height: 200px;
+	width: 200px
+	
+
+
+}

@@ -1,0 +1,36 @@
+p::first-letter {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+p::first-line{
+	background: #cf2c36;
+	line-height: 40px;
+}
+
+*::selection {
+	background: #FF4000;
+	color:#fff;
+}
+.caja{
+	background: #cf2c36;
+	width: 200px;
+	height: 200px;
+}
+.caja::before {
+	content: "contenido antes de mi caja"
+	background #000;
+	color: #fff;
+	display: block;
+	position: relative;
+	left: 50px;
+}
+.caja::after {
+	content: "afuera el cuadro"
+	background #000;
+	width:50px;
+	height: 50px;
+	display: block;
+	position: relative;
+	left: 200px;	
+}
